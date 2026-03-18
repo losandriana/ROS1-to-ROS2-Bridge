@@ -2,7 +2,17 @@
 
 This guide walks you through running a Docker container that acts as a **ROS1-ROS2 bridge** using **ROS Noetic** (ROS1) and **ROS Foxy** (ROS2). It includes installation steps, environment setup, and launching the bridge for dynamic topic communication.
 
+> **Tested on:** Raspberry Pi 5 Docker Engine
+
 ---
+
+## 0. Pull the Docker Image
+
+First, pull the prebuilt Docker image from Docker Hub:
+
+```bash
+docker pull losandriana/ros1-to-ros2-bridge:latest
+```
 
 ## 1. Run the Docker Container
 
