@@ -19,7 +19,7 @@ docker pull losandriana/ros1-to-ros2-bridge:latest
 Run the container in the host network to allow ROS nodes in different containers or on the host machine to communicate:
 
 ```bash
-docker run -it --rm --network host ros1-to-ros2-bridge:latest
+docker run -it --rm --network host ros1_bridge_commited:latest
 ```
 
 ## 2. Install ROS Dependencies
