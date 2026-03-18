@@ -94,6 +94,8 @@ ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
 In the container or machine where you want to listen to ROS2 topics:
 
 ```bash
+docker exec -it <CONTAINER_ID> bash
+
 # ROS2 DDS Implementation
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 export ROS_DOMAIN_ID=42
