@@ -76,3 +76,35 @@ Run the dynamic bridge to forward all topics between ROS1 and ROS2:
 ```bash
 ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
 ```
+
+
+
+## 7. Listener Container Setup
+
+In the container or machine where you want to listen to ROS2 topics:
+
+```bash
+# ROS2 DDS Implementation
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_DOMAIN_ID=42
+
+# Verify and set Python ROS2 path
+echo $PYTHONPATH
+export PYTHONPATH=/opt/ros/foxy/lib/python3.8/site-packages
+
+# Source ROS2 Foxy
+source /opt/ros/foxy/setup.bash
+
+# List available ROS2 topics
+ros2 topic list
+```
+
+## Summary
+By following these steps, you can:
+
+1. Run a Docker container with host networking for ROS communication.
+2. Install and configure ROS1 Noetic and ROS2 Foxy.
+3. Build the `ros1_bridge` package.
+4. Configure environment variables for ROS1-ROS2 communication.
+
+Launch a dynamic bridge to forward topics seamlessly.
