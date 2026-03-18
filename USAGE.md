@@ -106,5 +106,4 @@ By following these steps, you can:
 2. Install and configure ROS1 Noetic and ROS2 Foxy.
 3. Build the `ros1_bridge` package.
 4. Configure environment variables for ROS1-ROS2 communication.
-
-Launch a dynamic bridge to forward topics seamlessly.
+5. Launch a dynamic bridge to forward topics seamlessly.
