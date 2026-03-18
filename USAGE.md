@@ -46,7 +46,7 @@ source /opt/ros/foxy/setup.bash
 
 ## 4. Build the ROS1-ROS2 Bridge
 
-Navigate to your workspace and clone the bridge repository:
+Navigate to your workspace and clone the bridge repository - it may as well be already cloned and get a warning that the folder exists and is not empty:
 
 ```bash
 cd ~/ros1_bridge_ws
