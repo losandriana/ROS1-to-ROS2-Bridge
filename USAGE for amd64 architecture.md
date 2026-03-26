@@ -46,7 +46,7 @@ cd ~/bridge_ws
 Build the bridge package:
 
 ```bash
-colcon build --packages-select ros1_bridge --cmake-force-configure
+colcon build --symlink-install
 source install/setup.bash
 ```
 
