@@ -1,6 +1,6 @@
 # ROS1 to ROS2 Bridge Docker Image
 
-- **Raspberry Pi**
+- **RPi**
 [![Docker Pulls](https://img.shields.io/docker/pulls/losandriana/ros1-to-ros2-bridge)](https://hub.docker.com/r/losandriana/ros1-to-ros2-bridge)
 [![Docker Image Size](https://img.shields.io/docker/image-size/losandriana/ros1-to-ros2-bridge/latest)](https://hub.docker.com/r/losandriana/ros1-to-ros2-bridge)
 
