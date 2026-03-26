@@ -50,8 +50,8 @@ Navigate to your workspace and clone the bridge repository - it may as well be a
 
 ```bash
 cd ~/ros1_bridge_ws
-git clone https://github.com/ros2/ros1_bridge.git src/ros1_bridge
 ```
+
 Build the bridge package:
 
 ```bash
