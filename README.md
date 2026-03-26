@@ -1,11 +1,11 @@
 # ROS1 to ROS2 Bridge Docker Image
 
-- **ARM64 (Raspberry Pi / ARM systems)**
+- **Raspberry Pi**
 [![Docker Pulls](https://img.shields.io/docker/pulls/losandriana/ros1-to-ros2-bridge)](https://hub.docker.com/r/losandriana/ros1-to-ros2-bridge)
 [![Docker Image Size](https://img.shields.io/docker/image-size/losandriana/ros1-to-ros2-bridge/latest)](https://hub.docker.com/r/losandriana/ros1-to-ros2-bridge)
 
 
-- **AMD64 (Ubuntu / x86_64 systems)**
+- **AMD64**
 [![Docker Pulls](https://img.shields.io/docker/pulls/losandriana/ros1_ros2_bridge_amd64)](https://hub.docker.com/r/losandriana/ros1_ros2_bridge_amd64)
 [![Docker Image Size](https://img.shields.io/docker/image-size/losandriana/ros1_ros2_bridge_amd64/latest)](https://hub.docker.com/r/losandriana/ros1_ros2_bridge_amd64)
 
