@@ -27,7 +27,7 @@ The Docker images are hosted on Docker Hub:
 - **AMD64 (Ubuntu / x86_64 systems)**  
   - **Image Name:**`losandriana/ros1_ros2_bridge_amd64:latest`
   - **Latest Tag:** `latest`  
-  -**Docker Hub Page:** [https://hub.docker.com/r/losandriana/ros1_ros2_bridge_amd64](https://hub.docker.com/r/losandriana/ros1_ros2_bridge_amd64)
+  - **Docker Hub Page:** [https://hub.docker.com/r/losandriana/ros1_ros2_bridge_amd64](https://hub.docker.com/r/losandriana/ros1_ros2_bridge_amd64)
 
 ---
 
