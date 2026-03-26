@@ -11,7 +11,7 @@
 
 A Dockerized **ROS1-to-ROS2 bridge** that enables seamless communication between **ROS Noetic** (ROS1) and **ROS Foxy** (ROS2).  
 
-These images are tested on **Raspberry Pi 5 Docker Engine** and **AMD64 Ubuntu systems**, and are designed for rapid deployment of ROS bridging functionality.
+These images are tested on **Raspberry Pi 5 Docker Engine** and **AMD64 Ubuntu systems**, and are designed for rapid deployment of ROS bridging functionality while supporting custom messages.
 
 ---
 
