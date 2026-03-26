@@ -5,19 +5,32 @@
 
 A Dockerized **ROS1-to-ROS2 bridge** that enables seamless communication between **ROS Noetic** (ROS1) and **ROS Foxy** (ROS2).  
 
-This image is tested on **Raspberry Pi 5 Docker Engine** and is designed for rapid deployment of ROS bridging functionality.
+These images are tested on **Raspberry Pi 5 Docker Engine** and **AMD64 Ubuntu systems**, and are designed for rapid deployment of ROS bridging functionality.
 
 ---
 
-## Docker Hub Image
+## Docker Hub Images
 
-The Docker image is hosted on Docker Hub:
+The Docker images are hosted on Docker Hub:
 
-- **Image Name:** `losandriana/ros1-to-ros2-bridge`
-- **Latest Tag:** `latest`
-- **Docker Hub Page:** [https://hub.docker.com/r/losandriana/ros1-to-ros2-bridge](https://hub.docker.com/r/losandriana/ros1-to-ros2-bridge)
+- **ARM64 (Raspberry Pi / ARM systems)**  
+  `losandriana/ros1-to-ros2-bridge:latest`  
+  https://hub.docker.com/r/losandriana/ros1-to-ros2-bridge  
 
-You can pull the image with:
+- **AMD64 (Ubuntu / x86_64 systems)**  
+  `losandriana/ros1_ros2_bridge_amd64:latest`  
+  https://hub.docker.com/r/losandriana/ros1_ros2_bridge_amd64  
+
+---
+
+## Pull Images
+
+You can pull the images depending on your architecture:
 
 ```bash
+# ARM64 (Raspberry Pi / ARM systems)
 docker pull losandriana/ros1-to-ros2-bridge:latest
+
+# AMD64 (Ubuntu / x86_64 systems)
+docker pull losandriana/ros1_ros2_bridge_amd64:latest
+```
